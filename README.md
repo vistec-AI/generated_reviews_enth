@@ -48,7 +48,9 @@ English, Thai
 
 ### Data Instances
 
-[More Information Needed]
+{'en_segment': 'Best value in a hard to obtain item. The item was new with the box. I have purchased many times, and will continue to purchase as needed. Thank you very much!', 'th_segment': 'คุ้มค่าที่สุดในการรับไอเท็มยาก ๆ สินค้าเป็นของใหม่พร้อมกล่อง ฉันซื้อหลายครั้งและจะซื้อต่อไปตามความจำเป็น ขอบคุณมาก!', 'review_star': 5, 'correct': 0}
+{'en_segment': 'I am an avid Amazon reader since my first Kindle and I love to purchase books, movies, etc. from Amazon. This book was not the typical style of a John Grisham book. It came as a surprise from all the great reviews. The book starts out with no explanation on how these victims are able to tell each other apart. Not very believable. But, like most books by John, this one held my interest.', 'th_segment': 'ฉันเป็นนักอ่านตัวยงของ Amazon ตั้งแต่ Kindle ตัวแรกและฉันชอบซื้อหนังสือภาพยนตร์และอื่น ๆ จาก Amazon หนังสือเล่มนี้ไม่ได้เป็นแบบฉบับของหนังสือ John Grisham มันมาจากความคิดเห็นที่ยอดเยี่ยมทั้งหมด หนังสือเล่มนี้เริ่มต้นโดยไม่มีคำอธิบายว่าเหยื่อเหล่านี้สามารถแยกกันได้อย่างไร ไม่น่าเชื่อมาก แต่เหมือนกับหนังสือส่วนใหญ่ของจอห์นคนนี้สนใจฉัน', 'review_star': 3, 'correct': 0}
+{'en_segment': 'These things rip so easily.', 'th_segment': 'สิ่งเหล่านี้ฉีกง่ายมาก', 'review_star': 1, 'correct': 1
 
 ### Data Fields
 
@@ -59,7 +61,16 @@ English, Thai
 
 ### Data Splits
 
-[More Information Needed]
+|                 | train  | valid | test  |
+|-----------------|--------|-------|-------|
+| # samples       | 141369 | 15708 | 17453 |
+| # correct:0     | 99296  | 10936 | 12208 |
+| # correct:1     | 42073  | 4772  | 5245  |
+| # review_star:1 | 50418  | 5628  | 6225  |
+| # review_star:2 | 22876  | 2596  | 2852  |
+| # review_star:3 | 22825  | 2521  | 2831  |
+| # review_star:1 | 22671  | 2517  | 2778  |
+| # review_star:5 | 22579  | 2446  | 2767  |
 
 ## Dataset Creation
 
