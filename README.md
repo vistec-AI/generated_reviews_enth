@@ -48,9 +48,13 @@ English, Thai
 
 ### Data Instances
 
+```
 {'en_segment': 'Best value in a hard to obtain item. The item was new with the box. I have purchased many times, and will continue to purchase as needed. Thank you very much!', 'th_segment': 'คุ้มค่าที่สุดในการรับไอเท็มยาก ๆ สินค้าเป็นของใหม่พร้อมกล่อง ฉันซื้อหลายครั้งและจะซื้อต่อไปตามความจำเป็น ขอบคุณมาก!', 'review_star': 5, 'correct': 0}
-{'en_segment': 'I am an avid Amazon reader since my first Kindle and I love to purchase books, movies, etc. from Amazon. This book was not the typical style of a John Grisham book. It came as a surprise from all the great reviews. The book starts out with no explanation on how these victims are able to tell each other apart. Not very believable. But, like most books by John, this one held my interest.', 'th_segment': 'ฉันเป็นนักอ่านตัวยงของ Amazon ตั้งแต่ Kindle ตัวแรกและฉันชอบซื้อหนังสือภาพยนตร์และอื่น ๆ จาก Amazon หนังสือเล่มนี้ไม่ได้เป็นแบบฉบับของหนังสือ John Grisham มันมาจากความคิดเห็นที่ยอดเยี่ยมทั้งหมด หนังสือเล่มนี้เริ่มต้นโดยไม่มีคำอธิบายว่าเหยื่อเหล่านี้สามารถแยกกันได้อย่างไร ไม่น่าเชื่อมาก แต่เหมือนกับหนังสือส่วนใหญ่ของจอห์นคนนี้สนใจฉัน', 'review_star': 3, 'correct': 0}
+
+{'en_segment': 'I am an avid Amazon reader since my first Kindle and I love to purchase books, movies, etc. from Amazon. This book was not the typical style of a John Grisham book. It came as a surprise from all the great reviews. The book starts out with no explanation on how these victims are able to tell each other apart. Not very believable. But, like most books by John, this one held my interest.', 'th_segment': 'ฉันเป็นนักอ่านตัวยงของ Amazon ตั้งแต่ Kindle ตัวแรกและฉันชอบซื้อหนังสือภาพยนตร์และอื่น ๆ จาก Amazon หนังสือเล่มนี้ไม่ได้เป็นแบบฉบับของหนังสือ John Grisham มันมาจากความคิดเห็นที่ยอดเยี่ยมทั้งหมด 
+
 {'en_segment': 'These things rip so easily.', 'th_segment': 'สิ่งเหล่านี้ฉีกง่ายมาก', 'review_star': 1, 'correct': 1
+```
 
 ### Data Fields
 
@@ -138,9 +142,11 @@ CC BY-SA 4.0
 
 ### Citation Information
 
+```
 @article{lowphansirikul2020scb,
   title={scb-mt-en-th-2020: A Large English-Thai Parallel Corpus},
   author={Lowphansirikul, Lalita and Polpanumas, Charin and Rutherford, Attapol T and Nutanong, Sarana},
   journal={arXiv preprint arXiv:2007.03541},
   year={2020}
 }
+```
